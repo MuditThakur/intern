@@ -1,0 +1,104 @@
+/* MyJob.css */
+
+.my-job {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh; /* Ensure the component takes full height */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.job-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.job-card:hover {
+  background: #f1f1f1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image covers the circle */
+}
+
+.job-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-name {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.job-title {
+  font-size: 1.1em;
+  margin: 0;
+  color: #666;
+}
+
+.no-jobs {
+  text-align: center;
+  font-size: 1.2em;
+  color: #999;
+}
+
+.cancel-button {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 5px 10px;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  background-color: #d62839;
+}
+/* MyJob.css */
+
+.cancel-button {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 5px 10px;
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+  background-color: #d62839;
+}
